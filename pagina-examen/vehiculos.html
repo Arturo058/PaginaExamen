@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style-vehiculos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="vehiculos.html">Vehículos</a></li>
+                <li><a href="historia.html">Historia</a></li>
+            </ul>
+        </nav>
+        
+        <form class="search-bar" onsubmit="location.href='#'+document.getElementById('busqueda').value.toLowerCase().replace(/\s+/g, '-'); return false;">
+            <input type="text" id="busqueda" placeholder="Buscar vehículo..." list="vehiculos-lista">
+            <button type="submit">Buscar</button>
+            
+            <datalist id="vehiculos-lista">
+                <option value="diablo-stallion">
+                <option value="hoods-cruiser">
+                <option value="kuruma">
+                <option value="infernus">
+                <option value="deluxo">
+                <option value="cheetah">
+                <option value="hydra">
+                <option value="nrg-500">
+                <option value="patriot">
+                <option value="phoenix">
+                <option value="futo">
+                <option value="turismo">
+                <option value="adder">
+                <option value="oppressor">
+            </datalist>
+        </form>
+    </header>
+
+    <main class="vehicle-section">
+        <!-- GTA (1997) -->
+        <section>
+            <h2 class="game-title">GTA (1997)</h2>
+            <div class="vehicles-grid">
+                <article class="vehicle-card" id="diablo-stallion">
+                    <img src="https://cs1.gtaall.com/screenshots/4dc09/2019-04/original/39b27eb40d334034a249a44554a7e4d8e25a00ad/719010-enb2019-4-11-21-17-20.jpg" alt="Diablo Stallion">
+                    <div class="vehicle-info">
+                        <h3>Diablo Stallion</h3>
+                        <p>Muscle car clásico de la era 2D</p>
+                    </div>
+                </article>
+                
+                <article class="vehicle-card" id="hoods-cruiser">
+                    <img src="https://tcrf.net/images/6/62/GTA-LCS_JulyHoodsRumpo.png" alt="Hoods Cruiser">
+                    <div class="vehicle-info">
+                        <h3>Hoods Cruiser</h3>
+                        <p>Lowrider icónico del primer GTA</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- GTA III (2001) -->
+        <section>
+            <h2 class="game-title">GTA III (2001)</h2>
+            <div class="vehicles-grid">
+                <article class="vehicle-card" id="kuruma">
+                    <img src="https://i.ytimg.com/vi/dNORhXQXDh0/sddefault.jpg" alt="Kuruma">
+                    <div class="vehicle-info">
+                        <h3>Kuruma</h3>
+                        <p>Sedán deportivo basado en el Mitsubishi Lancer</p>
+                    </div>
+                </article>
+                
+                <article class="vehicle-card" id="infernus">
+                    <img src="https://cs3.gtaall.net/screenshots/d9802/2017-11/original/f8f029bf031d55664facdefbea309d8bed92ef1f/518821-enb2017-11-4-16-21-13.jpg" alt="Infernus">
+                    <div class="vehicle-info">
+                        <h3>Infernus</h3>
+                        <p>Superdeportivo basado en el Honda NSX</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- GTA Vice City (2002) -->
+        <section>
+            <h2 class="game-title">GTA Vice City (2002)</h2>
+            <div class="vehicles-grid">
+                <article class="vehicle-card" id="deluxo">
+                    <img src="https://i.ytimg.com/vi/2Coke0TpYSw/maxresdefault.jpg" alt="Deluxo">
+                    <div class="vehicle-info">
+                        <h3>Deluxo</h3>
+                        <p>Inspirado en el DeLorean de Volver al Futuro</p>
+                    </div>
+                </article>
+                
+                <article class="vehicle-card" id="cheetah">
+                    <img src="https://cs1.gtaall.net/screenshots/d9802/2019-04/original/00c472219959e2917fe791393b167fe8dc57d4df/721017-enb2019-4-25-16-54-16.jpg" alt="Cheetah">
+                    <div class="vehicle-info">
+                        <h3>Cheetah</h3>
+                        <p>Basado en el Ferrari Testarossa</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- GTA San Andreas (2004) -->
+        <section>
+            <h2 class="game-title">GTA San Andreas (2004)</h2>
+            <div class="vehicles-grid">
+                <article class="vehicle-card" id="hydra">
+                    <img src="https://cdn.staticneo.com/w/gta/thumb/Hydra.jpg/300px-Hydra.jpg" alt="Hydra">
+                    <div class="vehicle-info">
+                        <h3>Hydra</h3>
+                        <p>Avión de combate VTOL</p>
+                    </div>
+                </article>
+                
+                <article class="vehicle-card" id="nrg-500">
+                    <img src="https://www.giantbomb.com/a/uploads/scale_medium/1/13313/709285-nrg_500.jpg" alt="NRG-500">
+                    <div class="vehicle-info">
+                        <h3>NRG-500</h3>
+                        <p>La moto más rápida del juego</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- GTA Liberty City Stories (2005) -->
+        <section>
+            <h2 class="game-title">GTA Liberty City Stories (2005)</h2>
+            <div class="vehicles-grid">
+                <article class="vehicle-card" id="patriot">
+                    <img src="https://i.ytimg.com/vi/CXhAwq0LbYg/hqdefault.jpg" alt="Patriot">
+                    <div class="vehicle-info">
+                        <h3>Patriot</h3>
+                        <p>SUV militar basado en el Hummer</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- GTA Vice City Stories (2006) -->
+        <section>
+            <h2 class="game-title">GTA Vice City Stories (2006)</h2>
+            <div class="vehicles-grid">
+                <article class="vehicle-card" id="phoenix">
+                    <img src="https://cs1.gtaall.eu/screenshots/d4861/2019-03/original/65e77caf42a547290f6b4508b92ec135e00c1c91/716301-enb2019-3-29-11-35-1.jpg" alt="Phoenix">
+                    <div class="vehicle-info">
+                        <h3>Phoenix</h3>
+                        <p>Muscle car basado en el Pontiac Firebird</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- GTA Chinatown Wars (2009) -->
+        <section>
+            <h2 class="game-title">GTA Chinatown Wars (2009)</h2>
+            <div class="vehicles-grid">
+                <article class="vehicle-card" id="futo">
+                    <img src="https://gtamag.com/images/photo/gta-mag-karin-futo2-gtao-962587.jpg" alt="Futo">
+                    <div class="vehicle-info">
+                        <h3>Futo</h3>
+                        <p>Basado en el Toyota AE86 Trueno</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- GTA IV (2008) -->
+        <section>
+            <h2 class="game-title">GTA IV (2008)</h2>
+            <div class="vehicles-grid">
+                <article class="vehicle-card" id="turismo">
+                    <img src="https://cs2.gamemodding.com/images/0f2ff21a1a6366cf551fa21f7350f144de0177f54f24d4be456f0b2a58e617d8.jpg" alt="Turismo">
+                    <div class="vehicle-info">
+                        <h3>Turismo</h3>
+                        <p>Basado en el Ferrari F430</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- GTA V (2013) -->
+        <section>
+            <h2 class="game-title">GTA V (2013)</h2>
+            <div class="vehicles-grid">
+                <article class="vehicle-card" id="adder">
+                    <img src="https://img.gta5-mods.com/q75/images/stanced-adder/6b974e-capture4.png" alt="Adder">
+                    <div class="vehicle-info">
+                        <h3>Adder</h3>
+                        <p>Basado en el Bugatti Veyron</p>
+                    </div>
+                </article>
+                
+                <article class="vehicle-card" id="oppressor">
+                    <img src="https://static.deltiasgaming.com/2024/12/GTA-Online-Oppressor-Mk-II.jpg" alt="Oppressor">
+                    <div class="vehicle-info">
+                        <h3>Oppressor</h3>
+                        <p>Moto futurista con capacidad de vuelo</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 GTA Universe - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

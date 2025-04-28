@@ -1,0 +1,704 @@
+body {
+    scroll-behavior: smooth;
+  }
+  
+  footer {
+    margin-top: 50px;
+  }
+  body {
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  body {
+    background-image: url('https://rockstarintel.com/wp-content/uploads/2022/07/Grand-Theft-Auto-V-27_07_2022-14_51_09-1-copy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  /* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para el título del ranking */
+.ranking-title {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Estilos para la tabla */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.03);
+    font-weight: 600;
+}
+
+/* Estilos para las cards de juegos */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Estilos para los detalles/audio */
+.details-custom {
+    margin-top: 10px;
+}
+
+.details-custom summary {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    list-style: none;
+}
+
+.details-custom summary:hover {
+    background-color: #0b5ed7;
+}
+
+.details-custom[open] summary {
+    margin-bottom: 10px;
+}
+
+.details-content {
+    padding: 10px;
+    background-color: #b9c700;
+    border-radius: 4px;
+    border: 1px solid #dee2e6;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+}
+/* Estilo para la sección de contacto compacta */
+#contacto {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+#contacto h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+    color: #2c3e50;
+    text-align: center;
+}
+
+#contacto .form-label {
+    font-size: 0.85rem;
+    margin-bottom: 0.3rem;
+    color: #495057;
+}
+
+#contacto .form-control {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+    height: calc(1.5em + 0.75rem + 2px);
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+#contacto textarea.form-control {
+    height: auto;
+    min-height: 10px;
+}
+
+#contacto .btn-success {
+    padding: 0.4rem 1.2rem;
+    font-size: 0.85rem;
+    background-color: #068a25;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Efectos hover y focus */
+#contacto .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+#contacto .btn-success:hover {
+    background-color: #218838;
+    transform: translateY(-1px);
+}
+/* Estilos para páginas de contenido */
+.content-page {
+    padding: 2rem 0;
+  }
+  
+  .content-page img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .content-page img:hover {
+    transform: scale(1.02);
+  }
+  
+  .content-card {
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .content-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  .timeline {
+    position: relative;
+    padding-left: 50px;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #007bff;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff;
+    border: 3px solid white;
+  }
+  /* Navbar personalizado */
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.85) !important; /* Negro con 85% de opacidad */
+    backdrop-filter: blur(8px); /* Efecto de desenfoque para el vidrio */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-custom .navbar-brand img {
+    height: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link:hover,
+  .navbar-custom .navbar-nav .nav-link:focus {
+    color: #28a745; /* Verde GTA */
+  }
+  
+  .navbar-custom .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #28a745;
+    transition: width 0.3s ease;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .navbar-custom .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar-custom .dropdown-item {
+    color: #ffffff;
+  }
+  
+  .navbar-custom .dropdown-item:hover {
+    background-color: rgba(40, 167, 69, 0.2); /* Verde GTA con transparencia */
+    color: #28a745;
+  }
+  
+  .navbar-custom .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+  }
+  
+  .navbar-custom .btn-secondary {
+    background-color: #28a745;
+    border: none;
+  }
+  
+  /* Efecto al hacer scroll */
+  .navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.95) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 0.3rem 1rem;
+  }
+  
+  .navbar-scrolled .navbar-brand img {
+    height: 100px;
+  }
+  .gta-alert-container {
+    margin-top: 80px;
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Estilo base para los mensajes */
+  .gta-alert-message {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(25, 135, 84, 0.9);
+    color: #fff;
+    border-left: 4px solid #ffc107;
+    padding: 15px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transform: translateY(-20px);
+    animation-fill-mode: forwards;
+  }
+  
+  /* Efecto de brillo */
+  .gta-alert-message::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent
+    );
+    transform: translateX(-100%);
+  }
+  
+  /* Animaciones para cada mensaje */
+  .message-1 {
+    animation: showMessage 24s infinite 0s;
+  }
+  .message-2 {
+    animation: showMessage 24s infinite 4s;
+  }
+  .message-3 {
+    animation: showMessage 24s infinite 8s;
+  }
+  .message-4 {
+    animation: showMessage 24s infinite 12s;
+  }
+  .message-5 {
+    animation: showMessage 24s infinite 16s;
+  }
+  .message-6 {
+    animation: showMessage 24s infinite 20s;
+  }
+  
+  /* Animación de brillo */
+  .gta-alert-message::before {
+    animation: shine 3s infinite;
+  }
+  
+  @keyframes shine {
+    100% { transform: translateX(100%); }
+  }
+  
+  @keyframes showMessage {
+    0% { opacity: 0; transform: translateY(-20px); }
+    5% { opacity: 1; transform: translateY(0); }
+    15% { opacity: 1; transform: translateY(0); }
+    20% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 0; transform: translateY(20px); }
+  }
+  
+  body {
+    padding-top: 100px;
+  }
+.nav-link:hover .nav-sound,
+.navbar-brand:hover .nav-sound,
+.btn-outline-success:hover .nav-sound {
+  display: block;
+}
+
+.nav-sound {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+
+
+
+
+/* --- Animación general al cargar la página --- */
+@keyframes fadeInPage {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  body {
+    animation: fadeInPage 1s ease-out;
+  }
+  
+  /* --- Animaciones individuales para los personajes --- */
+  @keyframes fadeInCharacter {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .personaje-card {
+    animation: fadeInCharacter 1s ease forwards;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  /* Hover: agrandar y sombra */
+  .personaje-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Active: presionar ligeramente */
+  .personaje-card:active {
+    transform: scale(0.98);
+  }
+  
+  /* Imagen de personaje: asegúrate que las imágenes tengan tamaño controlado */
+  .personaje-card img {
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+
+
+
+
+
+
+
+/* Reset y estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://rockstarintel.com/wp-content/uploads/2022/07/Grand-Theft-Auto-V-27_07_2022-14_51_09-1-copy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    min-height: 100vh;
+}
+
+/* Header simplificado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrado en lugar de space-between */
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 10px 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #00ffcc;
+}
+
+/* Navegación mejorada */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Más espacio entre elementos */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; /* Tamaño de fuente aumentado */
+    padding: 5px 0;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00ffcc;
+}
+
+/* Animación de subrayado mejorada */
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px; /* Más grueso */
+    bottom: 0;
+    left: 0;
+    background-color: #00ffcc;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* Barra de búsqueda mejor integrada */
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 30px; /* Separación de la navegación */
+}
+
+.search-bar input {
+    padding: 8px 15px; /* Más padding */
+    border-radius: 20px; /* Bordes más redondeados */
+    border: none;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 200px; /* Ancho fijo */
+}
+
+.search-bar button {
+    background-color: transparent;
+    color: #00ffcc;
+    border: 1px solid #00ffcc;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #00ffcc;
+    color: black;
+}
+
+/* Contenido principal */
+main {
+    padding-top: 70px; /* Menos espacio para header más compacto */
+    min-height: calc(100vh - 70px);
+    width: 100%;
+}
+
+/* Sección Hero mejorada */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    font-size: 3rem; /* Más grande */
+    margin-bottom: 25px;
+    color: #ffff99;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Sombra más pronunciada */
+    animation: fadeIn 1.5s ease;
+}
+
+.hero p {
+    font-size: 1.3rem; /* Más grande */
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.7;
+    animation: fadeIn 2s ease;
+}
+
+/* Sección de juegos mejorada */
+.games {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px; /* Más espacio entre juegos */
+    padding: 60px 20px; /* Más padding */
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.game {
+    width: 320px; /* Un poco más ancho */
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 12px; /* Bordes más redondeados */
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada */
+    transition: all 0.4s ease;
+}
+
+.game:hover {
+    transform: translateY(-15px); /* Más movimiento */
+    box-shadow: 0 15px 30px rgba(0, 255, 204, 0.3); /* Sombra más verde */
+}
+
+.game img {
+    width: 100%;
+    height: 180px; /* Altura fija para consistencia */
+    object-fit: cover; /* Asegura que las imágenes se ajusten bien */
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.game:hover img {
+    transform: scale(1.08); /* Zoom más pronunciado */
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Efecto de brillo mejorado */
+.highlight {
+    position: relative;
+    overflow: hidden;
+}
+
+.highlight::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.3), /* Más visible */
+        transparent
+    );
+    transition: all 0.7s ease; /* Más lento */
+}
+
+.highlight:hover::after {
+    left: 100%;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    nav ul {
+        margin: 15px 0;
+        gap: 15px;
+    }
+    
+    .search-bar {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+

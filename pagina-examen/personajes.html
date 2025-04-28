@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes - GTA</title>
+    <link rel="stylesheet" href="style-personajes.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="vehiculos.html">Vehículos</a></li>
+                <li><a href="historia.html">Historia</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Buscar personaje...">
+            <button onclick="buscarPersonaje()">Buscar</button>
+        </div>
+    </header>
+    <div class="character-section">
+        <!-- GTA (1997) -->
+        <h2 class="game-title">GTA (1997)</h2>
+        <div class="characters-grid">
+            <div class="character-card" id="8-ball">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1ac24c3b-64ec-4d25-b418-46ab7ebd6d8c/df8i5uf-0a06bbde-2a13-43a0-8ffe-f299b13edbce.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFhYzI0YzNiLTY0ZWMtNGQyNS1iNDE4LTQ2YWI3ZWJkNmQ4Y1wvZGY4aTV1Zi0wYTA2YmJkZS0yYTEzLTQzYTAtOGZmZS1mMjk5YjEzZWRiY2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.P7uD7iSxTPq0xjQwPCVYTCSjejSpsIwYifzha-iVkdw" alt="8-Ball" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">8-Ball</h3>
+                    <p class="character-game">Personaje destacado - GTA 1</p>
+                    <p class="character-desc">Experto en explosivos que aparece en varios juegos de la saga.</p>
+                </div>
+            </div>
+            <div class="character-card" id="el-burro">
+                <img src="https://pm1.aminoapps.com/6934/8cbb2f39da742aac50fa40b68c7495d20f247be6r1-461-457v2_00.jpg" alt="El Burro" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">El Burro</h3>
+                    <p class="character-game">Personaje destacado - GTA 1</p>
+                    <p class="character-desc">Miembro de la pandilla Diablos que aparece en el primer GTA.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- GTA III -->
+        <h2 class="game-title">GTA III (2001)</h2>
+        <div class="characters-grid">
+            <div class="character-card" id="claude">
+                <img src="https://pm1.aminoapps.com/6776/4cb942f0a7f486ca8f9bbef4d39c87eb60d7266dv2_00.jpg" alt="Claude" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Claude</h3>
+                    <p class="character-game">Protagonista - GTA III</p>
+                    <p class="character-desc">Ex convicto mudo que llega a Liberty City buscando venganza. Conocido por su silencio y habilidades al volante.</p>
+                </div>
+            </div>
+            <div class="character-card" id="catalina">
+                <img src="https://cs4.gtavicecity.ru/screenshots/9a0d4/2021-11/original/d695b38bd928a33143ad2fdb83ec433e60e54fe3/985203-gallery10.jpg" alt="Catalina" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Catalina</h3>
+                    <p class="character-game">Antagonista - GTA III</p>
+                    <p class="character-desc">Ex novia de Claude que lo traiciona. Líder de un cartel de drogas colombiano en Liberty City.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- GTA Vice City -->
+        <h2 class="game-title">GTA Vice City (2002)</h2>
+        <div class="characters-grid">
+            <div class="character-card" id="tommy-vercetti">
+                <img src="https://preview.redd.it/ngjyezgar5z91.jpg?auto=webp&s=0f84cca80a04e53fb5dcce092813dee211a019e8" alt="Tommy Vercetti" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Tommy Vercetti</h3>
+                    <p class="character-game">Protagonista - GTA Vice City</p>
+                    <p class="character-desc">Ex convicto enviado a Vice City para establecer operaciones criminales. Inspirado en Tony Montana de Scarface.</p>
+                </div>
+            </div>
+            <div class="character-card" id="sonny-forelli">
+                <img src="https://preview.redd.it/sonny-forelli-v0-ajo4e54oafbe1.jpg?width=640&crop=smart&auto=webp&s=831fbeef41e5cf10897602466bf0a3bbb679ad5d" alt="Sonny Forelli" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Sonny Forelli</h3>
+                    <p class="character-game">Antagonista - GTA Vice City</p>
+                    <p class="character-desc">Jefe mafioso que traiciona a Tommy. Líder de la familia Forelli.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- GTA San Andreas -->
+        <h2 class="game-title">GTA San Andreas (2004)</h2>
+        <div class="characters-grid">
+            <div class="character-card" id="carl-johnson">
+                <img src="https://www.dexerto.es/cdn-image/wp-content/uploads/sites/3/2020/01/cj-gta.jpg?width=1200&quality=60&format=auto" alt="Carl Johnson" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Carl "CJ" Johnson</h3>
+                    <p class="character-game">Protagonista - GTA San Andreas</p>
+                    <p class="character-desc">Miembro de Grove Street Families que regresa a Los Santos tras la muerte de su madre. Protagonista más carismático de la saga.</p>
+                </div>
+            </div>
+            <div class="character-card" id="big-smoke">
+                <img src="https://carboncostume.com/wordpress/wp-content/uploads/2016/10/bigsmoke.jpg" alt="Big Smoke" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Big Smoke</h3>
+                    <p class="character-game">Antagonista - GTA San Andreas</p>
+                    <p class="character-desc">Amigo de la infancia de CJ que lo traiciona uniéndose a los Ballas y a C.R.A.S.H.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- GTA Liberty City Stories -->
+        <h2 class="game-title">GTA Liberty City Stories (2005)</h2>
+        <div class="characters-grid">
+            <div class="character-card" id="tony-cipriani">
+                <img src="https://pm1.aminoapps.com/6738/0be7786f8e43e9add3fdc479a4a21d3e2da9b9b0v2_00.jpg" alt="Tony Cipriani" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Tony Cipriani</h3>
+                    <p class="character-game">Protagonista - GTA Liberty City Stories</p>
+                    <p class="character-desc">Matón de la mafia que trabaja para la familia Leone en Liberty City.</p>
+                </div>
+            </div>
+            <div class="character-card" id="salvatore-leone">
+                <img src="https://pm1.aminoapps.com/7888/0b7305b20bd0e1bb1aa841e0a9836f5aba2e0458r1-1920-1080v2_uhq.jpg" alt="Salvatore Leone" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Salvatore Leone</h3>
+                    <p class="character-game">Personaje importante - GTA Liberty City Stories</p>
+                    <p class="character-desc">Jefe de la familia mafiosa Leone en Liberty City.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- GTA Vice City Stories -->
+        <h2 class="game-title">GTA Vice City Stories (2006)</h2>
+        <div class="characters-grid">
+            <div class="character-card" id="vic-vance">
+                <img src="https://i.namu.wiki/i/02VxDMVgSDHqU384XSOecNCfMWTK0_meQUSIEyzfaiDsssT-6l5jkUBaui4MpZXinStE8QEdLFT_RBAUSR8OUw.webp" alt="Vic Vance" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Vic Vance</h3>
+                    <p class="character-game">Protagonista - GTA Vice City Stories</p>
+                    <p class="character-desc">Soldado caído en desgracia que se convierte en criminal en Vice City.</p>
+                </div>
+            </div>
+            <div class="character-card" id="lance-vance">
+                <img src="https://www.giantbomb.com/a/uploads/scale_small/46/462814/3182259-1324296458-latest" alt="Lance Vance" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Lance Vance</h3>
+                    <p class="character-game">Personaje importante - GTA Vice City Stories</p>
+                    <p class="character-desc">Hermano menor de Vic Vance que aparece en varios juegos de la saga.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- GTA Chinatown Wars -->
+        <h2 class="game-title">GTA Chinatown Wars (2009)</h2>
+        <div class="characters-grid">
+            <div class="character-card" id="huang-lee">
+                <img src="https://i.ytimg.com/vi/ZlKMXfCAAMY/sddefault.jpg" alt="Huang Lee" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Huang Lee</h3>
+                    <p class="character-game">Protagonista - GTA Chinatown Wars</p>
+                    <p class="character-desc">Joven de una familia triádica que llega a Liberty City para vengar la muerte de su padre.</p>
+                </div>
+            </div>
+            <div class="character-card" id="wade-heston">
+                <img src="https://i.ytimg.com/vi/lXuDjHk3t30/maxresdefault.jpg" alt="Wade Heston" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Wade Heston</h3>
+                    <p class="character-game">Antagonista - GTA Chinatown Wars</p>
+                    <p class="character-desc">Corrupto agente de la DEA que se convierte en enemigo de Huang Lee.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- GTA IV -->
+        <h2 class="game-title">GTA IV (2008)</h2>
+        <div class="characters-grid">
+            <div class="character-card" id="niko-bellic">
+                <img src="https://preview.redd.it/hlcjxpj89wj91.jpg?width=640&crop=smart&auto=webp&s=83904d8da560de8b1d1bd28ce842efbc59dfe022" alt="Niko Bellic" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Niko Bellic</h3>
+                    <p class="character-game">Protagonista - GTA IV</p>
+                    <p class="character-desc">Veterano de guerra de Europa del Este que llega a Liberty City buscando el "sueño americano".</p>
+                </div>
+            </div>
+            <div class="character-card" id="dimitri-rascalov">
+                <img src="https://pm1.aminoapps.com/6783/1c0507d627ba299685b14c4b581870b8874eb3c8v2_hq.jpg" alt="Dimitri Rascalov" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Dimitri Rascalov</h3>
+                    <p class="character-game">Antagonista - GTA IV</p>
+                    <p class="character-desc">Mafioso ruso que traiciona a Niko en múltiples ocasiones.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- GTA V -->
+        <h2 class="game-title">GTA V (2013)</h2>
+        <div class="characters-grid">
+            <div class="character-card" id="michael-de-santa">
+                <img src="https://pbs.twimg.com/profile_images/1886887401165086724/PMO5Bck__400x400.jpg" alt="Michael De Santa" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Michael De Santa</h3>
+                    <p class="character-game">Protagonista - GTA V</p>
+                    <p class="character-desc">Ex atracador de bancos en el programa de protección de testigos. Padre de familia disfuncional.</p>
+                </div>
+            </div>
+            <div class="character-card" id="trevor-philips">
+                <img src="https://images.cgames.de/images/gamestar/290/gta-5-story-addon-trevor_6287877.jpg" alt="Trevor Philips" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Trevor Philips</h3>
+                    <p class="character-game">Protagonista - GTA V</p>
+                    <p class="character-desc">Sociópata impredecible y ex compañero de Michael. Dueño de una empresa de contrabando.</p>
+                </div>
+            </div>
+            <div class="character-card" id="franklin-clinton">
+                <img src="https://i.ytimg.com/vi/Vrbmp-HwZi4/maxresdefault.jpg" alt="Franklin Clinton" class="character-image">
+                <div class="character-info">
+                    <h3 class="character-name">Franklin Clinton</h3>
+                    <p class="character-game">Protagonista - GTA V</p>
+                    <p class="character-desc">Joven ambicioso del sur de Los Santos que quiere salir del mundo criminal.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function buscarPersonaje() {
+            const input = document.getElementById('searchInput').value.trim().toLowerCase();
+            const personajes = {
+                // GTA 1
+                '8-ball': '#8-ball',
+                'el burro': '#el-burro',
+                // GTA III
+                'claude': '#claude',
+                'catalina': '#catalina',
+                // Vice City
+                'tommy vercetti': '#tommy-vercetti',
+                'sonny forelli': '#sonny-forelli',
+                // San Andreas
+                'carl johnson': '#carl-johnson',
+                'cj': '#carl-johnson',
+                'big smoke': '#big-smoke',
+                // Liberty City Stories
+                'tony cipriani': '#tony-cipriani',
+                'salvatore leone': '#salvatore-leone',
+                // Vice City Stories
+                'vic vance': '#vic-vance',
+                'lance vance': '#lance-vance',
+                // Chinatown Wars
+                'huang lee': '#huang-lee',
+                'wade heston': '#wade-heston',
+                // GTA IV
+                'niko bellic': '#niko-bellic',
+                'dimitri rascalov': '#dimitri-rascalov',
+                // GTA V
+                'michael de santa': '#michael-de-santa',
+                'michael': '#michael-de-santa',
+                'trevor philips': '#trevor-philips',
+                'trevor': '#trevor-philips',
+                'franklin clinton': '#franklin-clinton',
+                'franklin': '#franklin-clinton', 
+            };
+
+            if (personajes[input]) {
+                window.location.href = personajes[input];
+                // Hacer scroll suave hasta el personaje
+                document.querySelector(personajes[input]).scrollIntoView({ behavior: 'smooth' });
+            } else {
+                alert('Personaje no encontrado. Prueba con: "CJ", "Michael", "Trevor", etc.');
+            }
+        }
+
+        // Buscar al presionar Enter
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                buscarPersonaje();
+            }
+        });
+    </script>
+</body>
+</html>
